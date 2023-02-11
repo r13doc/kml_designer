@@ -167,9 +167,9 @@ class KmlDesigner():
             
  
     # function divide our input file.
-    # if kmz file have image file with icons and kml it split for point.kmz and lines.kmz(lines without icons)
+    # if kmz file have image file with icons and kml it split for point.kmz and lines.kml(lines without icons)
     # if input file is kml class split to point.kml, lines.kml, polygons.kml
-    # class add number for new creating kml or kmz file
+    
     
     def folders_split(self, data):
         # function for searching last file in folder and adding nuber +1
